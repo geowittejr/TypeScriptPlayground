@@ -5,3 +5,7 @@ https://medium.com/@clayallsopp/incrementally-migrating-javascript-to-typescript
 https://www.typescriptlang.org/
 http://react-etc.net/entry/angular-2-cli-moves-from-systemjs-to-webpack
 http://ilikekillnerds.com/2015/07/typescript-vs-ecmascript-20152016/
+
+
+Using this tutorial:
+https://www.typescriptlang.org/docs/tutorial.html
