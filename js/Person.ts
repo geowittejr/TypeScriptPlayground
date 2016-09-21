@@ -1,5 +1,7 @@
 /**
  * Created by George on 9/18/2016.
+ *
+ * https://www.typescriptlang.org/docs/tutorial.html
  */
 class Student {
     fullName: string;
@@ -11,10 +13,11 @@ class Student {
 interface Person {
     firstName: string;
     lastName: string;
+    middleInitial: string;
 }
 
 function greeter(person : Person) {
-    return "Hello, " + person.firstName + " " + person.lastName;
+    return "Hello, " + person.firstName + " " + person.middleInitial + " " + person.lastName;
 }
 
 var user = new Student("Jane", "M.", "User");
