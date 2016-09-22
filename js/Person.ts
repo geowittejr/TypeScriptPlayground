@@ -10,16 +10,25 @@ class Student {
     }
 }
 
+class Professional {
+    fullName: string;
+    constructor(public prefix, public firstName, public middleInitial, public lastName) {
+        this.fullName = prefix + " " + firstName + " " + middleInitial + " " + lastName;
+    }
+}
+
 interface Person {
     firstName: string;
     lastName: string;
     middleInitial: string;
+    fullName: string;
+    prefix: string;
 }
 
 function greeter(person : Person) {
-    return "Hello, " + person.firstName + " " + person.middleInitial + " " + person.lastName;
+    return "Hello, " + person.fullName;
 }
 
-var user = new Student("Jane", "M.", "User");
+var user = new Professional("Mr.", "George", "F.", "Witte");
 
 document.body.innerHTML = greeter(user);

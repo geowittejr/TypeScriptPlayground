@@ -12,9 +12,19 @@ var Student = (function () {
     }
     return Student;
 }());
+var Professional = (function () {
+    function Professional(prefix, firstName, middleInitial, lastName) {
+        this.prefix = prefix;
+        this.firstName = firstName;
+        this.middleInitial = middleInitial;
+        this.lastName = lastName;
+        this.fullName = prefix + " " + firstName + " " + middleInitial + " " + lastName;
+    }
+    return Professional;
+}());
 function greeter(person) {
-    return "Hello, " + person.firstName + " " + person.middleInitial + " " + person.lastName;
+    return "Hello, " + person.fullName;
 }
-var user = new Student("Jane", "M.", "User");
+var user = new Professional("Mr.", "George", "F.", "Witte");
 document.body.innerHTML = greeter(user);
 //# sourceMappingURL=Person.js.map
