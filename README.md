@@ -6,7 +6,6 @@ A repo to try some stuff with TypeScript
 [Angular 2 CLI Moves From SystemJS to Webpack](http://react-etc.net/entry/angular-2-cli-moves-from-systemjs-to-webpack)
 [TypeScript vs. EcmaScript](http://ilikekillnerds.com/2015/07/typescript-vs-ecmascript-20152016/)
 
-
 Using this tutorial:
 
 [TypeScript Language Tutorial](https://www.typescriptlang.org/docs/tutorial.html)
