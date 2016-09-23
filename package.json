@@ -1,13 +1,14 @@
 {
   "name": "typescript-playground",
   "version": "0.0.1",
-  "description": "A repo to try some stuff with TypeScript:\r * [Incrementally Migrating JavaScript to TypeScript](https://medium.com/@clayallsopp/incrementally-migrating-javascript-to-typescript-565020e49c88#.3a108js66)\r * [TypeScript Offical Site](https://www.typescriptlang.org/)\r * [Angular 2 CLI Moves From SystemJS to Webpack](http://react-etc.net/entry/angular-2-cli-moves-from-systemjs-to-webpack)\r * [TypeScript vs. EcmaScript](http://ilikekillnerds.com/2015/07/typescript-vs-ecmascript-20152016/)",
+  "description": "A repo to try some stuff with TypeScript",
   "main": "index.js",
   "dependencies": {
     "typescript": "^1.8.10"
   },
   "devDependencies": {
-    "lodash": "^4.16.1"
+    "lodash": "^4.16.1",
+    "typings": "^1.4.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
