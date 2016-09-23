@@ -7,7 +7,6 @@
     "typescript": "^1.8.10"
   },
   "devDependencies": {
-    "lodash": "^4.16.1",
     "typings": "^1.4.0"
   },
   "scripts": {
