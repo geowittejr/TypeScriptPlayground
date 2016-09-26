@@ -11,9 +11,17 @@ I need a typings.json file that replaces what used to be a tsd.json file (see to
 * https://www.npmjs.com/package/typings
 
 
-Git
+###Typings
+The following command will install a typings file that exists in DefinitelyTyped repo:
 
-Add Another Remote
-git remote add remote-name https://remote-url
+    typings install dt~aws-sdk --global --save
 
-git push remote-name master
+
+
+###Git
+
+Add Another Remote:
+
+    git remote add remote-name https://remote-url
+
+    git push remote-name master
