@@ -12,7 +12,7 @@ I need a typings.json file that replaces what used to be a tsd.json file (see to
 
 ###React and TypeScript
 
-    https://github.com/rangle/typescript-react-redux-starter
+https://github.com/rangle/typescript-react-redux-starter
 
 ###Typings
 The following command will install a typings file that exists in DefinitelyTyped repo:
