@@ -14,10 +14,14 @@ I need a typings.json file that replaces what used to be a tsd.json file (see to
 
 https://github.com/rangle/typescript-react-redux-starter
 
-###Typings
-The following command will install a typings file that exists in DefinitelyTyped repo:
+###Type Definitions
 
-    typings install dt~aws-sdk --global --save
+Now with TypeScript 2.0 we can install type definition files using NPM.
+See: https://blogs.msdn.microsoft.com/typescript/2016/06/15/the-future-of-declaration-files/
+I installed the type definition file for React with this command:
+
+    npm install --save-dev @types/react
+
 
 
 
