@@ -1,7 +1,7 @@
 
-TypeScript
+#Documentation
 
-Typings
+###Typings
 Get the TypeScript definitions from this repository
 https://github.com/typings/typings
 https://github.com/typings/typings/blob/master/docs/commands.md
@@ -12,7 +12,11 @@ I need a typings.json file that replaces what used to be a tsd.json file (see to
 
 ###React and TypeScript
 
+This is a good project template:
 https://github.com/rangle/typescript-react-redux-starter
+
+This blog post explains the setup involved with React, TypeScript, and Webpack:
+http://blog.tomduncalf.com/posts/setting-up-typescript-and-react/#recommendation
 
 ###Type Definitions
 
@@ -21,9 +25,6 @@ See: https://blogs.msdn.microsoft.com/typescript/2016/06/15/the-future-of-declar
 I installed the type definition file for React with this command:
 
     npm install --save-dev @types/react
-
-
-
 
 ###Git
 
