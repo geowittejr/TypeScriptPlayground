@@ -11,6 +11,7 @@
     "@types/lodash": "^4.14.36",
     "@types/react": "^0.14.37",
     "@types/react-dom": "^0.14.17",
+    "@types/redux": "^3.5.30",
     "redux": "^3.6.0",
     "typescript": "^2.0.3"
   },
