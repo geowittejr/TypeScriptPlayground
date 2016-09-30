@@ -18,6 +18,11 @@ https://github.com/rangle/typescript-react-redux-starter
 This blog post explains the setup involved with React, TypeScript, and Webpack:
 http://blog.tomduncalf.com/posts/setting-up-typescript-and-react/#recommendation
 
+###Redux
+
+https://github.com/reactjs/redux
+https://egghead.io/courses/getting-started-with-redux
+
 ###Type Definitions
 
 Now with TypeScript 2.0 we can install type definition files using NPM.
