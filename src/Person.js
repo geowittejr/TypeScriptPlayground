@@ -27,4 +27,4 @@ function greeter(person) {
 }
 var user = new Professional("Mr.", "George", "F.", "Witte");
 document.body.innerHTML = greeter(user);
-//# sourceMappingURL=Person.js.map
+//# sourceMappingURL=Person.src.map
